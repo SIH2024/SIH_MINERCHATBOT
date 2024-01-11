@@ -75,7 +75,6 @@ with QUERY:
 
     if st.button("Enter"):
         if user_input:
-            selected_keyword  = rules_responses
             responses = mining_rules_bot(user_input, selected_keyword)
             for i, response in enumerate(responses):
                 bot_history=(f"Chatbot: {response}")
