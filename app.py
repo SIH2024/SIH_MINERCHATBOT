@@ -4,7 +4,7 @@ from streamlit_chat import message
 import streamlit.components.v1 as components
 
 # Set page title and layout
-st.set_page_config(page_title="Your Chatbot UI", layout="wide")
+st.set_page_config(page_title="MinerMark Chatbot", layout="wide")
 # Declare the rules_responses dictionary
 rules_responses = {
     r'mines': 'Mining in India is regulated by the Mines and Minerals (Development and Regulation) Act, 1957. It covers the development and regulation of mines and the conservation of minerals.',
@@ -51,7 +51,7 @@ rules_responses = {
     r'streamlining mining approval process': 'Efforts to streamline the mining approval process involve simplifying procedures, reducing bureaucratic hurdles, and leveraging technology for faster and more transparent decision-making.'
 
 }
-st.title("Miner Mark AI")
+st.title("MinerMark Chatbot")
 chat_history = st.container()
 
 st.markdown("Ask me anything about mining rules in India. I'll try my best to provide helpful information.")
