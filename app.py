@@ -4,7 +4,7 @@ from streamlit_chat import message
 import streamlit.components.v1 as components
 
 # Set page title and layout
-st.set_page_config(page_title="MinerMark Chatbot", layout="wide")
+st.set_page_config(page_title="Your Chatbot UI", layout="wide")
 # Declare the rules_responses dictionary
 rules_responses = {
     r'mines': 'Mining in India is regulated by the Mines and Minerals (Development and Regulation) Act, 1957. It covers the development and regulation of mines and the conservation of minerals.',
@@ -48,10 +48,11 @@ rules_responses = {
     r'advanced technologies': 'The government promotes the use of advanced technologies in the mining industry to improve efficiency, safety, and environmental sustainability. Technologies such as automation, IoT, and AI are encouraged.',
     r'prospecting license process': 'The process of obtaining a prospecting license for mineral exploration involves submitting an application to the relevant authorities. The license allows the holder to conduct preliminary surveys and assessments to identify mineral deposits.',
     r'mining waste disposal regulations': 'Regulations for the disposal of mining waste and tailings aim to minimize environmental impact. Guidelines include safe disposal methods, containment measures, and monitoring to prevent contamination of soil and water.',
-    r'streamlining mining approval process': 'Efforts to streamline the mining approval process involve simplifying procedures, reducing bureaucratic hurdles, and leveraging technology for faster and more transparent decision-making.'
+    r'streamlining mining approval process': 'Efforts to streamline the mining approval process involve simplifying procedures, reducing bureaucratic hurdles, and leveraging technology for faster and more transparent decision-making.',
+    r'Thank you': 'Welcome feel free to ask further questions.'
 
 }
-st.title("MinerMark Chatbot")
+st.title("Miner Mark AI")
 chat_history = st.container()
 
 st.markdown("Ask me anything about mining rules in India. I'll try my best to provide helpful information.")
